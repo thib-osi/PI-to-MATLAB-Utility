@@ -43,11 +43,6 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="OSIsoft.AF.UI" version="4.0.0.0" publicKeyToken="6238BE57836698E6" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -57,51 +52,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Configuration" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Configuration.PISDKRegDirectoryProvider" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Net" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Net.Core" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="OSIsoft.PI.Resources" version="1.5.4.0" publicKeyToken="C3309F0734BA2805" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MLApp.dll" size="8704">
-      <assemblyIdentity name="Interop.MLApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DsRp5Fsy0QE6vfaS9YnXs3dw+HChebO8LG5Gq0VK5q4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI-to-MATLAB-Utility.exe" size="82944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI-to-MATLAB-Utility.exe" size="84480">
       <assemblyIdentity name="PI-to-MATLAB-Utility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0vt2LVZV4N4qLd7r+PUak/Ngp7gy64YpETcRmc4YW0U=</dsig:DigestValue>
+        <dsig:DigestValue>Wuq0woEUMdH1hwMwS6WRvRBj5tak5kvbfkVcaQXHwVs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
