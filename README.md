@@ -15,7 +15,7 @@ To uninstall, go to add or remove programs in windows, and uninstall PI-to-MATLA
 ##Prerequisites
 
 You must have the following applications installed before you can run or compile the PI-to-MATLAB utility:
-+ MATLAB (the version we tested are R20014b:8.4.0.150421 and 2016a:9.0.0.341360) 
++ MATLAB (the versions we tested are R20014b:8.4.0.150421 and 2016a:9.0.0.341360) 
 + PI AF Software Development Kit (PI AF SDK) <sup>1</sup>
 
  
