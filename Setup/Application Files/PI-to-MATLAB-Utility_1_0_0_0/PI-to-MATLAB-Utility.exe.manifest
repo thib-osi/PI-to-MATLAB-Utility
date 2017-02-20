@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI-to-MATLAB-Utility.exe" size="99840">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI-to-MATLAB-Utility.exe" size="96768">
       <assemblyIdentity name="PI-to-MATLAB-Utility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XIQPulhr6hWhHyqyNLLR63DQOxIuVYh65hVYwj/b7/s=</dsig:DigestValue>
+        <dsig:DigestValue>K2Zyn6dsMt9kkBrR+SlQOhxw7RXb/w3ydFds2PzdBXY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
