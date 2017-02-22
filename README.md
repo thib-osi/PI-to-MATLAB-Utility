@@ -1,10 +1,10 @@
 # PI-to-MATLAB-Utility
 
-The PI to MATLAB utility is a small utility that was developed by an OSIsoft Academic Program intern, Marissa Engle. The utility automatically runs a MATLAB Instance and allows the user to inject PI System Data into this MATLAB Instance, as variable(s). Currently it connects to the default AF Server and the first AF database.
+The PI to MATLAB utility is a small utility that was developed by an OSIsoft Academic Program intern. The utility automatically runs a MATLAB Instance and allows the user to inject PI System Data into this MATLAB Instance, as variable(s). Currently it connects to the default AF Server and the first AF database.
 
 This repository contains the source files to build this utility as well as the Windows Installer to install it on your computer.
 
-**The content in this repository is explained in the [White Paper - Using the PI-to-MATLAB Utility][2] availabe on PI Square**. Make sure to have a look into it!
+**The content in this repository is explained in the [White Paper - Using the PI-to-MATLAB Utility][2] available on PI Square**. Make sure to have a look into it!
 
 ##Installation and Removal
 
