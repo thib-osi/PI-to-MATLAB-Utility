@@ -7,7 +7,13 @@ This repository contains the source files to build this utility as well as the W
 **The content in this repository is explained in the [White Paper - Using the PI-to-MATLAB Utility][2] availabe on PI Square**. Make sure to have a look into it!
 
 ##Installation and Removal
-Run setup.exe from the Setup folder.  You should then see an entry PI-to-MATLAB Utility in your start menu.
+
+**Installation**
+
+- Download the file Setup.zip: **[PI to Matlab Utility Setup Kit - Latest][3]**
+- Run setup.exe from the extracted setup folder. After the installation you should then see an entry PI-to-MATLAB Utility in your start menu.
+
+**Uninstall**
 
 To uninstall, go to add or remove programs in windows, and uninstall PI-to-MATLAB Utility.
 
@@ -19,7 +25,7 @@ You must have the following applications installed before you can run or compile
 + PI AF Software Development Kit (PI AF SDK) <sup>1</sup>
 
  
-<sup>1</sup> PI AF SDK must be installed on the machine where the PI-to-MATLAB utility is used. The easiest way to obtain PI AF SDK is to download and install the **PI Asset Framework (PI AF) Client XXX Install Kit (with PSE and AF SDK)** . You may obtain the PI Asset Framework Client installation kit from our Tech Support website at https://techsupport.osisoft.com/Products/PI-Server/PI-AF/   
+<sup>1</sup> PI AF SDK must be installed on the machine where the PI-to-MATLAB utility is used. The easiest way to obtain PI AF SDK is to download and install the **[PI Asset Framework (PI AF) Client XXX Install Kit][4]. You may obtain the PI Asset Framework Client installation kit from our Tech Support website at https://techsupport.osisoft.com/Products/PI-Server/PI-AF/  
 
 
 ##How to create the installation package
@@ -37,6 +43,7 @@ We suggest you start by opening an issue so a discussion can start before you st
 
 
 ##Licensing
+
 Copyright 2016 OSIsoft, LLC.
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -58,3 +65,5 @@ Please see the file named [LICENSE.md](LICENSE.md).
 
 [1]:https://github.com/osisoft/contributing
 [2]:https://pisquare.osisoft.com/docs/DOC-2292
+[3]:https://github.com/osisoft/PI-to-MATLAB-Utility/releases/latest
+[4]:https://techsupport.osisoft.com/Products/PI-Server/PI-AF/ 
