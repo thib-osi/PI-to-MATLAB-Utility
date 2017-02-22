@@ -255,15 +255,20 @@ namespace MATLABfromCSharp
         {
             if(avcAttributes.ListHasSelectedItems)
             {
-                string name = avcAttributes.AFSelection.ToString();
-                if (name != null)
+                string srv_db = "'" + _curServer + "'_'" + _curDatabase + "'";
+                if (avcAttributes.AFSelection is AFAttribute) // Single attribute selected
                 {
-                    string srv_db = "'" + _curServer + "'_'" + _curDatabase + "'";
-                    control.getAFData(srv_db, name, getUserVariableName(name), _curPath, startDTP.Text, endDTP.Text, true);
-                    if (!tb_MatlabName.ReadOnly)
-                        tb_MatlabName.ReadOnly = true;
-
+                    control.getAFData(srv_db, avcAttributes.AFSelection.ToString(), getUserVariableName(avcAttributes.AFSelection.ToString()), _curPath, startDTP.Text, endDTP.Text, true);
                 }
+                else if (avcAttributes.AFSelection is AFNamedCollection<AFAttribute>) // Multiple attributes selected
+                {
+                    foreach (var attr in (AFNamedCollection<AFAttribute>) avcAttributes.AFSelection)
+                    {
+                        control.getAFData(srv_db, attr.ToString(), attr.ToString(), _curPath, startDTP.Text, endDTP.Text, true);
+                    }
+                }
+                // Disable the custom variable name textbox
+                tb_MatlabName.ReadOnly = true;
             }
 
         }
